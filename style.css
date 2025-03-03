@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'deftone';
+    src: url(font/DEFTONE.ttf);
+    format: ('truetype');
+}
+
+nav {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 2rem;
+    text-decoration: none;
+    color: blue;
+}
+
+nav ul li a:hover {
+    background-color: rgb(240, 192, 130);
+    color: blue
+}
+
+header h1 {
+    font-family: 'deftone';
+    text-align: center;
+    padding: 2rem;
+}
+
+#banner {
+    display: flex;
+    width: 100%;
+    height: 26.6rem;
+    justify-content: center;
+}
+
+section {
+    border: 2px solid black;
+    margin: 0.5rem 10rem;
+    padding: 1rem;
+}
