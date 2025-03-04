@@ -78,6 +78,22 @@ ul {
     list-style: square;
 }
 
+a,
+a:visited {
+    color: #ffffff;
+}
+#order {
+    display: flex;
+    justify-content: center;
+}
+#button{
+    background-color: #ffa500;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 20%;
+    font-weight: bold;
+}
+
 address {
     display: inline;
 }
