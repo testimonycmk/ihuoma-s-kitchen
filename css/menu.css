@@ -80,3 +80,47 @@ footer {
     padding: 1rem;
     font-weight: bold;
 }
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+    nav ul li a {
+        padding: 0.5rem;
+    }
+        div img {
+            width: 15rem;
+            height: auto;
+            border-radius: 50%;
+            border: 2px double #ffa500;
+        }
+
+    header h1 {
+        padding: 1rem;
+    }
+
+    div {
+        margin: 0 2rem;
+        padding: 1rem;
+    }
+h2 {
+    margin: 0.5rem 2rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+    section {
+        margin: 0.5rem 2rem;
+        padding: 1rem;
+    }
+
+
+    footer {
+        display: inline-block;
+        font-weight: bold;
+        width: 100%;
+    }
+}

@@ -82,15 +82,16 @@ a,
 a:visited {
     color: #ffffff;
 }
+
 #order {
     display: flex;
     justify-content: center;
 }
-#button{
+
+#button {
     background-color: #ffa500;
     padding: 1rem;
     text-decoration: none;
-    border-radius: 20%;
     font-weight: bold;
 }
 
@@ -99,7 +100,8 @@ address {
 }
 
 footer {
-    display: flex;
+    display: inline-block;
+    width: 100%;
     background: linear-gradient(to right, #ff0000, #ffa500, #ffff00);
     justify-content: center;
     padding: 1rem;
@@ -110,4 +112,40 @@ footer a {
     color: #333333;
     text-decoration: none;
     font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 0.8rem;
+    }
+    nav ul li a {
+        padding: 0.5rem;
+    }
+
+    header h1 {
+        padding: 1rem;
+    }
+
+    div {
+        margin: 0 2rem;
+    }
+
+    section {
+        margin: 0.5rem 2rem;
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #button {
+        padding: 0.2rem;
+    }
+
+    footer {
+        display: inline-block;
+        font-weight: bold;
+    }
 }
