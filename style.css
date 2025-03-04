@@ -10,9 +10,18 @@
     format: ('truetype');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
 nav {
     display: flex;
-    background-color: antiquewhite;
+    background: linear-gradient(to right, #ff0000, #ffa500, #ffff00);
 }
 
 nav ul {
@@ -28,12 +37,12 @@ nav ul li a {
     display: block;
     padding: 2rem;
     text-decoration: none;
-    color: blue;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-    background-color: rgb(240, 192, 130);
-    color: blue
+    background-color: #ffa500;
 }
 
 header h1 {
@@ -41,16 +50,43 @@ header h1 {
     text-align: center;
     padding: 2rem;
 }
+div{
+    margin: 0 10rem;
+}
 
 #banner {
     display: flex;
     width: 100%;
-    height: 26.6rem;
+    height: auto;
     justify-content: center;
 }
 
 section {
-    border: 2px solid black;
+    background-color: #000000;
     margin: 0.5rem 10rem;
+    padding: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+address {
+    display: inline;
+}
+
+footer {
+    display: flex;
+    background: linear-gradient(to right, #ff0000, #ffa500, #ffff00);
+    justify-content: center;
     padding: 1rem;
+    font-weight: bold;
+}
+
+footer a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
 }
