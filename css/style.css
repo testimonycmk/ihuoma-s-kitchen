@@ -50,7 +50,8 @@ header h1 {
     text-align: center;
     padding: 2rem;
 }
-div{
+
+div {
     margin: 0 10rem;
 }
 
@@ -71,6 +72,10 @@ h2 {
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+}
+
+ul {
+    list-style: square;
 }
 
 address {
