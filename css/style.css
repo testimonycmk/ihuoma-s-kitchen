@@ -73,6 +73,7 @@ section p {
 section ul {
     padding-left: 3rem;
     padding-bottom: 0.5rem;
+    list-style: square;
 }
 
 .picture {
@@ -84,10 +85,6 @@ h2 {
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 1rem;
-}
-
-ul {
-    list-style: square;
 }
 
 a,
