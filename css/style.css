@@ -17,6 +17,12 @@ body {
     font-family: 'poppins', sans-serif;
 }
 
+#sideBarActive,
+.openSideBar,
+.closeSideBar {
+    display: none;
+}
+
 nav {
     display: flex;
     background: linear-gradient(to right, #ff0000, #ffa500, #ffff00);
@@ -124,10 +130,43 @@ footer a {
         font-size: 0.8rem;
     }
 
-    nav ul li a {
-        padding: 0.5rem;
+    nav ul li {
+        display: block;
     }
 
+    .linksContainer
+        {
+        background-color: #333;
+        height: 100%;
+        width: 60%;
+        /* display: none; */
+        flex-direction: column;
+
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1;
+
+        box-shadow: -5px 0 5px -5px #333;
+        transition: 0.5s ease-out;
+    }
+
+    nav ul li a {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .openSideBar,
+    .closeSideBar {
+        padding: 0.5rem;
+        display: block;
+    }
+#sideBarActive:checked~.linksContainer {
+    /* display: flex; */
+    left: 0;
+    transition: 0.5s ease-out;
+}
     header h1 {
         padding: 1rem;
     }

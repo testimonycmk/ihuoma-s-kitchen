@@ -12,14 +12,22 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html"><img src="images/ihuoma-s-kitchen-logo.png" alt="logo"></a></li><!-- 
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#contact">Contact</a></li> -->
-            </ul>
+            <input type="checkbox" id="sideBarActive">
+            <label for="sideBarActive" class="openSideBar">
+                <img src="icons/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="menu icon">
+            </label>
+            <div class="linksContainer">
+                <label for="sideBarActive" class="closeSideBar">
+                    <img src="icons/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </label>
+                <ul>
+                    <li><a href="index.html" class="homeLink">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
-        <!-- <div><img src="images/ihuoma-s-kitchen-logo.png" alt="Ihuoma’s Kitchen logo" loading="lazy"></div> -->
     </header>
     <main>
         <h1>FULL MENU</h1>

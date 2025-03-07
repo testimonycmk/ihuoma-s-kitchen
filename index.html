@@ -12,12 +12,21 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <input type="checkbox" id="sideBarActive">
+            <label for="sideBarActive" class="openSideBar">
+                <img src="icons/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="menu icon">
+            </label>
+            <div class="linksContainer">
+                <label for="sideBarActive" class="closeSideBar">
+                    <img src="icons/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </label>
+                <ul>
+                    <li><a href="index.html" class="homeLink">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
         <h1>IHUOMA’S KITCHEN</h1>
     </header>
@@ -61,7 +70,7 @@
                 Don’t worry we got you covered too. Order online, and we’ll bring the feast straight to your doorstep.
             </p>
         </section>
-        <section class="contact">
+        <section class="services">
             <h2>Our Services</h2>
             <p>At Ihuoma’s Kitchen we cater to your culinary needs daily, but make no mistake we’re more than that! We
                 offer full
